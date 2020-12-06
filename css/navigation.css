@@ -1,0 +1,40 @@
+.navigation {
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(100, auto);
+    grid-template-areas:
+    'nav-links';
+    background-color: #202020;
+    border-bottom: 2px solid #C90068;
+}
+
+.nav-links {
+    grid-area: nav-links;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-links li {
+    float:left;
+}
+
+.nav-links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 3px 3px 0 0;
+}
+.nav-links li a:hover {
+    background-color: #C90068;
+  }
+
+.active {
+    background-color: #C90068;
+}
