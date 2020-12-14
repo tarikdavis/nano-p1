@@ -1,0 +1,54 @@
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+.lrg-heading {
+    color: #202020;
+    margin: 30px 0 0 0;
+    text-transform: uppercase;
+}
+
+.lrg-heading {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lrg-heading:before,
+.lrg-heading:after {
+    content: '';
+    border-top: 1px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+    color: #8c8c8c;
+}
+
+.lrg-heading:after {
+    margin: 0 0 0 20px;
+}
+
+.intro-info {
+    font-style: italic;
+}
+
+.quote {
+    text-align: right;
+    font-size: 1.4rem;
+    font-style: italic;
+    font: #8c8c8c;
+    width: 90%;
+}

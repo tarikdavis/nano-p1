@@ -1,126 +1,152 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Tariks Travels around Scotland</title>
+<title>Tariks Travels</title>
 <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
-<link rel="stylesheet" href="css/style.css"> 
+<link rel="stylesheet" href="css/style.css">
+<script src="https://kit.fontawesome.com/993a4fd787.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="container">
     <header>
-        <div class="hero">
-            <div class="hero-heading">
-                <h1>Tariks Travels</h1>
-            </div>
-            <div class="avatar">
-                <picture>
-                    <img class="avatar-icon" src="img/tarik-davis-avatar.jpg" alt="Tariks selfie in Scotland">
-                </picture>
-            </div>            
-            <div class="hero-subheading">
-                <p>subheading</p>
-            </div>
-        </div>
-    </header>
     <nav>
         <div class="navigation">
             <div class="nav-links">
                 <ul>
                     <li><a class="active" href="index.htm">Home</a></li>
+                    <li><a href="#blog">Blog</a></li>
                     <li><a href="subscribe.htm">Subscribe</a></li>
-                    <li><a href="designsystem.htm">Design System</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+        <div class="hero">
+            <div class="hero-heading">
+                <h1>Tariks Travels</h1>
+            </div>          
+            <div class="hero-subheading">
+                <p>Udacity personal blog project. Photography by me. Sample blog post '<a href="posts/shetland.htm">Puffins, Otters and Seals</a>'</p>
+            </div>
+        </div>
+    </header>
     <main>
+    <div class="content-container">
+    <section>
+        <div class="heading-container">
+            <header>
+                <h2 class="lrg-heading">Featured posts</h2>
+            </header>
+        </div>
+    </section>
     <section>
         <div class="content">
-            <div class="archive">
-                <div class="archive-links">
-                    <header>
-                        <h2>Archives</h2>
-                    </header>
-                <ul>
-                    <li>January</li>
-                    <li>February</li>
-                    <li>March</li>
-                    <li>April</li>
+            <div id="blog" class="featured-posts">
+                <div class="card c1">
+                    <div class="card-pic">
+                        <picture>
+                            <img class="post-img" src="img/puffin-sq.jpg" alt="A Puffin">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                            <header>
+                                <h3>Puffins, Otters and Seals - Shetland Islands - uk</h3>
+                                <a class="card-button" href="posts/shetland.htm">Read more <i class="fas fa-chevron-right"></i></a>
+                            </header>
+                    </div>
+                </div>
+                <div class="card c2">
+                     <div class="card-pic">
+                        <picture>
+                            <img class="post-img" src="img/camp-sq.jpg" alt="View of campsite at night, Hemis National Park, Ladakh, India">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                            <header>
+                                <h3>Snow Leopards - Hemis National Park- Ladakh India</h3>
+                                <a class="card-button" href="posts/hemis-national-park.htm">Read more <i class="fas fa-chevron-right"></i></a>
+                            </header>
+                    </div>
+                </div>
+            </div> <!--featured posts-->
+        </div>
+    </section>
+    <section>
+        <div class="heading-container">
+            <header>
+                <h2 class="lrg-heading">Related Articles</h2>
+            </header>
+        </div>
+    </section>
+    <section>
+        <div class="content">
+            <div class="supporting-posts">
+                <div class="card c3">
+                  <div class="card-pic">
+                        <picture>
+                            <img class="post-img" src="img/pumpkin-sq.jpg" alt="Yayoi Kusama Pumpkin sculpture, Naoshima Japan">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                            <header>
+                                <h3>Benesse House and Chichu Art Museum - Naoshima - Japan</h3>
+                                <a class="card-button" href="#">Read more <i class="fas fa-chevron-right"></i></a>
+                            </header>
+                    </div>
+                </div>
+                <div class="card c4">
+                    <div class="card-pic">
+                        <picture>
+                            <img class="post-img" src="img/rajasthan-sq.jpg" alt="Jal Mahal">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                            <header>
+                                <h3>Palaces and Lakes of Jodphur, Jaipur and Udaipur - Rajasthan - India </h3>
+                                <a class="card-button" href="#">Read more <i class="fas fa-chevron-right"></i></a>
+                            </header>
+                    </div>
+                </div>
+                <div class="card c5">
+                    <div class="card-pic">
+                        <picture>
+                            <img class="post-img" src="img/scotland-sq.jpg" alt="View of boats and mountains - Ullapool Scotland">
+                        </picture>
+                    </div>
+                    <div class="card-content">
+                            <header>
+                                <h3>Driving the NC500 Coastal route - Highlands - Scotland - UK</h3>
+                                <a class="card-button" href="#">Read more <i class="fas fa-chevron-right"></i></a>
+                            </header>
+                    </div>
+                </div>
+            </div> <!--supporting posts-->
+        </div>
+    </section>
+    </div>
+    </main>
+<footer>
+    <section>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="social">
+                    <div class="heading-container">
+                        <header>
+                            <h4>Connect with me</h2>
+                        </header>
+                    </div>
+                <div class="social-links">
+                    <ul>
+                        <li><a href="https://github.com/tarikdavis"><i class="fab fa-github-square"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/tarikdavis/"><i class="fab fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
-            <div class="featured-posts">
-                <div class="post p1">
-                    <div class="p1-pic">
-                        <picture>
-                            <img class="post-img" src="img/hemis-national-park.jpg" alt="View of campsite at night, Hemis National Park, Ladakh, India">
-                        </picture>
-                    </div>
-                    <div class="p1-content">
-                            <header>
-                                <h3>Snow Leopards - Hemis National Park- Ladakh India</h3>
-                                <p class="small">Author | Date</p>
-                            </header>
-                    </div>
-                </div>
-                <div class="post p2">
-                    <div class="p2-pic">
-                        <picture>
-                            <img class="post-img" src="img/pumpkin-naoshima-1-x-1.jpg" alt="Yayoi Kusama Pumkin sculpture, Naoshima, Japan">
-                        </picture>
-                    </div>
-                    <div class="p2-content">
-                            <header>
-                                <h3>Naoshima art island - Kagawa - Japan</h3>
-                                <p class="small">Author | Date</p>
-                            </header>
-                    </div>
-                </div>
-                <div class="post p3">
-                    <div class="p3-pic">
-                        <picture>
-                            <img class="post-img" src="img/puffin-1-x-1.jpg" alt="Puffin, Shetland Islands, UK">
-                        </picture>
-                    </div>
-                    <div class="p3-content">
-                            <header>
-                                <h3>Puffins, Seals & Otters - Shetland Islands - UK</h3>
-                                <p class="small">Author | Date</p>
-                            </header>
-                    </div>
-                </div>
-                <div class="post p5">
-                    <div class="p5-pic">
-                        <picture>
-                            <img class="post-img" src="img/pumpkin-naoshima-1-x-1.jpg" alt="Yayoi Kusama Pumkin sculpture, Naoshima, Japan">
-                        </picture>
-                    </div>
-                    <div class="p5-content">Bottom Left P2</div>
-                </div>
-                <div class="post p6">
-                    <div class="p6-pic">
-                        <picture>
-                            <img class="post-img" src="img/puffin-1-x-1.jpg" alt="Puffin, Shetland Islands, UK">
-                        </picture>
-                    </div>
-                    <div class="p6-content">Bottom Right P3</div>
-                </div>
-                <div class="post p4">
-                    <div class="p4-pic">
-                        <picture>
-                            <img class="post-img" src="img/hemis-national-park.jpg" alt="View of campsite at night, Hemis National Park, Ladakh, India">
-                        </picture>
-                    </div>
-                    <div class="p4-content">Bottom P4</div>
-                </div>
-            </div>
         </div>
+    </div>
     </section>
-    </main>
-    <footer>
-    Footer
-    </footer>
+</footer>
+
     </div>
 </body>
 </html>
